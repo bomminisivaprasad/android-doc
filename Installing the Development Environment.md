@@ -34,7 +34,7 @@ Double click on the downloaded "Android Studio-ide.exe" file.
 
 "Android Studio Setup" will appear on the screen and click "Next" to proceed.
 
-
+![step4](https://user-images.githubusercontent.com/21328787/85981155-57dc2400-ba01-11ea-9220-015c4965ade3.jpg)
 
 #### Step 5
  
