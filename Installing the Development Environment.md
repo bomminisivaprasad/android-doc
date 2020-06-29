@@ -24,57 +24,11 @@ To download the Android Studio, visit the official Android Studio website in you
 
 Click on the ["Download Android Studio"](https://developer.android.com/studio?hl=es) option.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 3
 
 Double click on the downloaded "Android Studio-ide.exe" file.
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![step3](https://user-images.githubusercontent.com/21328787/85978184-cf0eb980-b9fb-11ea-82db-501198ec7b1e.jpg)
 
 #### Step 4
 
@@ -82,60 +36,9 @@ Double click on the downloaded "Android Studio-ide.exe" file.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 5
  
 Select the components that you want to install and click on the "Next" button.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -155,67 +58,10 @@ Now, browse the location where you want to install the Android Studio and click 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 7
 
 Choose a start menu folder for the "Android Studio" shortcut and click the "Install" button to proceed.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #### Step 8
@@ -223,98 +69,13 @@ Choose a start menu folder for the "Android Studio" shortcut and click the "Inst
 After the successful completion of the installation, click on the "Next" button.
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 9
 
 Click on the "Finish" button to proceed.
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Now, your Android studio welcome screen will appear on the screen.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -327,37 +88,6 @@ Android Studio Setup Configuration
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 11
 
 Select (check) the "Standard" option if you are a beginner and do not have any idea about Android Studio. It will install the most common settings and options for you. Click "Next" to proceed.
@@ -365,68 +95,10 @@ Select (check) the "Standard" option if you are a beginner and do not have any i
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Step 12
 
 Now, select the user interface theme as you want. (I prefer Dark theme (Dracula) that is most liked by the coders). Then, click on the "Next" button.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -441,62 +113,8 @@ Now, click on the "Finish" button to download all the SDK components.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 And, the downloading and installation process of components gets started.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -504,30 +122,6 @@ And, the downloading and installation process of components gets started.
 
 After downloading all the necessary components, click on the "Finish" button.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -585,26 +179,6 @@ Virtual Device. Then click on the “Next” button. Note: select a small screen
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  4.	Now you will see options to verify the Emulator Settings otherwise you may change the settings according to your requirement from this dialog as well and then click on the “Finish” button.
 
  
@@ -623,51 +197,9 @@ Virtual Device. Then click on the “Next” button. Note: select a small screen
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  6.	After launching the Emulator (by double-click on the Emulator option that you want to use as show in the screenshot above), wait for the “Home Screen” to load on the Android Virtual Device and then run the application. It’s important that the Virtual Device has finished loading before you try to run the application otherwise it won’t be recognized by Android Studio and you will be prompted to launch the Emulator again which can cause issues. Once the Virtual Device has loaded and you have run the application the dialog below will appear and you can select the
  
 Android device that you wish to use.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -703,36 +235,6 @@ Android device that you wish to use.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Go to [Settings] > [Additional Settings] > [Developer Options], you'll be asked to enter a code then press Use.
 
 Toggle to green to enable [Developer Options].To Turn off off Developer options.
@@ -740,35 +242,6 @@ Toggle to green to enable [Developer Options].To Turn off off Developer options.
 
 Just press the orange highlight at the topmost part of the homescreen.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
