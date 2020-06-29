@@ -40,44 +40,35 @@ Double click on the downloaded "Android Studio-ide.exe" file.
  
 Select the components that you want to install and click on the "Next" button.
 
-
-
-
-
-
-
-
-
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981396-c8834080-ba01-11ea-81ca-54576a42a141.jpg)
 
 #### Step 6
 
 Now, browse the location where you want to install the Android Studio and click "Next" to proceed.
  
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981399-c91bd700-ba01-11ea-9939-dbe2bd0b3019.jpg)
 
 #### Step 7
 
 Choose a start menu folder for the "Android Studio" shortcut and click the "Install" button to proceed.
  
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981400-c9b46d80-ba01-11ea-8ea4-ff9198240b0d.jpg)
 
 #### Step 8
 
 After the successful completion of the installation, click on the "Next" button.
  
+![multilink](https://user-images.githubusercontent.com/21328787/85981402-ca4d0400-ba01-11ea-9d59-a018b8ca78ba.jpg)
 
 #### Step 9
 
 Click on the "Finish" button to proceed.
  
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981404-ca4d0400-ba01-11ea-98d5-6ab9bd769bbb.jpg)
 
 Now, your Android studio welcome screen will appear on the screen.
 
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981405-cae59a80-ba01-11ea-80db-a212d58a3676.jpg)
 
 Android Studio Setup Configuration
  
@@ -85,54 +76,38 @@ Android Studio Setup Configuration
 
 "Android Studio Setup Wizard" will appear on the screen with the welcome wizard. Click on the "Next" button.
 
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981376-c3be8c80-ba01-11ea-9e3d-c75fed70c3c9.jpg)
 
 #### Step 11
 
 Select (check) the "Standard" option if you are a beginner and do not have any idea about Android Studio. It will install the most common settings and options for you. Click "Next" to proceed.
  
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981381-c620e680-ba01-11ea-9918-48a967f92e70.jpg)
 
 
 #### Step 12
 
 Now, select the user interface theme as you want. (I prefer Dark theme (Dracula) that is most liked by the coders). Then, click on the "Next" button.
  
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981382-c620e680-ba01-11ea-8e55-5c92cf126c28.jpg)
 
 #### Step 13
 
 Now, click on the "Finish" button to download all the SDK components.
  
-
-
-
-
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981383-c6b97d00-ba01-11ea-980c-1b1494b9d1f4.jpg)
 
 And, the downloading and installation process of components gets started.
  
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981384-c7521380-ba01-11ea-9fb7-6ccd895873f6.jpg)
 
 #### Step 14
 
 After downloading all the necessary components, click on the "Finish" button.
  
-
-
-
-
-
-
+![multilink](https://user-images.githubusercontent.com/21328787/85981390-c7eaaa00-ba01-11ea-8ef4-e303ae2f7260.jpg)
 
 Congrats, your Android Studio has been successfully installed in your system and you can start a new Android studio project.
-
-
-
 
 ### Emulator Creation:
 
