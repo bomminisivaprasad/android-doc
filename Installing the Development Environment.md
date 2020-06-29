@@ -111,87 +111,41 @@ Congrats, your Android Studio has been successfully installed in your system and
 
 ### Emulator Creation:
 
+![mobile](https://user-images.githubusercontent.com/21328787/85983392-10579700-ba05-11ea-83d0-8196957d6113.png)
+
   1.	Click on the “Create Virtual Device” button.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983370-09308900-ba05-11ea-8640-51e62ba6e3c2.jpg)
 
  2.	Select “Phone” or “Tablet” as Category and select the device which you want to use to make a
-
 Virtual Device. Then click on the “Next” button. Note: select a small screen device for better emulator performance. Devices with a large screen will have a longer launch time (Nexus 4, Nexus 5 etc).
 
- 
+![mobile](https://user-images.githubusercontent.com/21328787/85983372-0a61b600-ba05-11ea-81f2-cfbb2ac7f663.jpg)
 
  3.	Select the System Image i.e. the API level of Android OS (KitKat, Lollipop etc). Foxit Quick PDF Library for Android requires an API level of 15 or higher.
 
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983374-0afa4c80-ba05-11ea-8a66-963a6035736e.jpg)
 
  4.	Now you will see options to verify the Emulator Settings otherwise you may change the settings according to your requirement from this dialog as well and then click on the “Finish” button.
-
+ 
+![mobile](https://user-images.githubusercontent.com/21328787/85983376-0b92e300-ba05-11ea-9559-d4e204b3e5de.jpg)
  
  5.	Now you will see the newly created Emulator in the list of available Android Virtual Devices.
 
-
-
-
-
-
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983379-0c2b7980-ba05-11ea-92d5-bf65ead738d3.jpg)
 
  6.	After launching the Emulator (by double-click on the Emulator option that you want to use as show in the screenshot above), wait for the “Home Screen” to load on the Android Virtual Device and then run the application. It’s important that the Virtual Device has finished loading before you try to run the application otherwise it won’t be recognized by Android Studio and you will be prompted to launch the Emulator again which can cause issues. Once the Virtual Device has loaded and you have run the application the dialog below will appear and you can select the
  
 Android device that you wish to use.
 
-
-
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983383-0c2b7980-ba05-11ea-81e3-7542dd164437.jpg)
 
  7.	Finally you should now see your application running in the Android Emulator.
 
 ### Notes:
 
  1.	Android Studio can be a bit sensitive with the Emulators. If you find the Emulator isn’t working
-
+ 
 (when it has previously worked) check the task manager and remove any loaded Emulator processes. If that doesn’t work try rebooting. This can be an issue in step 7 if you try loading the same Emulator twice you will find that it a) doesn’t let you and b) causes ongoing issues until you have resolved the conflict (as already mentioned, rebooting helps but is not the most efficient).
 
  2.	We suggest launching the Emulator first from the ADV Manager and waiting for the Emulator to fully load the device (i.e. homescreen is shown) before trying to run the app on the Emulator. If the Emulator has not fully loaded then it will not be shown in the Choose Device screenshot shown in step 7 when you try running the app and then it will give you the option to launch the Emulator again and this will just result in frustrating Emulator conflict issues.
@@ -201,14 +155,7 @@ Android device that you wish to use.
 
  1.	Go to [Settings] > [About Phone] and click [Version] / [Build number] for 7 times in a row to enter developer mode.
  
-
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983384-0cc41000-ba05-11ea-91ed-7628cad4eced.png)
 
 Go to [Settings] > [Additional Settings] > [Developer Options], you'll be asked to enter a code then press Use.
 
@@ -217,20 +164,7 @@ Toggle to green to enable [Developer Options].To Turn off off Developer options.
 
 Just press the orange highlight at the topmost part of the homescreen.
  
-
-
-
-
-
-
-
-
-
-
-
-
+![mobile](https://user-images.githubusercontent.com/21328787/85983385-0d5ca680-ba05-11ea-9417-6c54cf1448be.png)
 
 Reconnect your phone to the PC
-
-
 Reconnect your phone to the PC with a cable and click the notification on your phone "Transferring Photos via USB."
