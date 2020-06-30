@@ -2,18 +2,12 @@
 In this task, you will create an app that displays "Hello World" to verify that Android studio is correctly installed, and to learn the basics of developing with Android Studio.
 
 #### Create the app project
-- Open **Android Studio** if it is not already opened.
-- In the main Welcome to Android Studio window, click Start a new Android Studio project.
-- In the Create Android Project window, enter Hello World for the Application name.
-        
-        
-        
-        
-        
-        
-        4.Verify that the default Project location is where you want to store your Hello World app and other Android Studio projects, or change it to your preferred directory.
 
-        5.Accept the default android.example.com for Company Domain, or create a unique company domain.
+1. Open **Android Studio** if it is not already opened.
+2. In the main Welcome to Android Studio window, click Start a new Android Studio project.
+3. In the Create Android Project window, enter Hello World for the Application name.
+4. Verify that the default Project location is where you want to store your Hello World app and other Android Studio projects, or change it to your preferred directory.
+5. Accept the default android.example.com for Company Domain, or create a unique company domain.
         
   If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.
 
