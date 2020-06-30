@@ -2,11 +2,9 @@
 In this task, you will create an app that displays "Hello World" to verify that Android studio is correctly installed, and to learn the basics of developing with Android Studio.
 
 #### Create the app project
-        1.Open **Android Studio** if it is not already opened.
-
-        2.In the main Welcome to Android Studio window, click Start a new Android Studio project.
-
-        3.In the Create Android Project window, enter Hello World for the Application name.
+- Open **Android Studio** if it is not already opened.
+- In the main Welcome to Android Studio window, click Start a new Android Studio project.
+- In the Create Android Project window, enter Hello World for the Application name.
         
         
         
