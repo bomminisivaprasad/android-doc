@@ -9,8 +9,8 @@ In this task, you will create an app that displays "Hello World" to verify that 
 ![install ](https://user-images.githubusercontent.com/21328787/86093091-0d73a980-bacc-11ea-94bb-b328d7caa7e7.png)
 
 4. Verify that the default **Project location** is where you want to store your Hello World app and other Android Studio projects, or change it to your preferred directory.
-5. Accept the default **android.example.com** for **Company Domain**, or create a unique company domain.
-If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.
+5. Accept the default **android.example.com** for **Company Domain**, or create a unique company domain.<br>
+If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.<br>
 6.Leave unchecked the options to **Include C++ support** and **Include Kotlin** support, and **click Next**.
 7.On the **Target Android Devices** screen, **Phone and Tablet** should be selected. Ensure that **API 15: Android 4.0.3 IceCreamSandwich** is set as the Minimum SDK; if it is not, use the popup menu to set it.
 
@@ -53,30 +53,30 @@ The Android Studio editor appears. Follow these steps:
 
 
 
-### Explore the Project > Android pane
+#### Explore the Project > Android pane
 In this practical, you will explore how the project is organized in Android Studio.
 
-1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.
+1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.<br>
 2.To view the project in the standard Android project hierarchy, choose **Android** from the popup menu at the top of the Project pane, as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093104-11073080-bacc-11ea-9645-d3be1e17f3c0.png)
 
-'<**Note:** This chapter and other chapters refer to the Project pane, when set to Android, as the Project > Android pane.>'
+**Note:** This chapter and other chapters refer to the Project pane, when set to Android, as the Project > Android pane.
 
-2.3 Explore the Gradle Scripts folder
+#### Explore the Gradle Scripts folder
 
-1.The Gradle build system in Android Studio makes it easy to include external binaries or other library modules to your build as dependencies.
+The Gradle build system in Android Studio makes it easy to include external binaries or other library modules to your build as dependencies.
 
-When you first create an app project, the Project > Android pane appears with the Gradle Scripts folder expanded as shown below.
+When you first create an app project, the **Project > Android** pane appears with the **Gradle** Scripts folder expanded as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093097-0f3d6d00-bacc-11ea-8f65-539d7db7d445.png)
 
 Follow these steps to explore the Gradle system:
 
-If the Gradle Scripts folder is not expanded, click the triangle to expand it.
+1.If the **Gradle Scripts** folder is not expanded, click the triangle to expand it.
 This folder contains all the files needed by the build system.
 
-Look for the build.gradle(Project: HelloWorld) file.
+2.Look for the **build.gradle(Project: HelloWorld)** file.
 This is where you'll find the configuration options that are common to all of the modules that make up your project. Every Android Studio project contains a single, top-level Gradle build file. Most of the time, you won't need to make any changes to this file, but it's still useful to understand its contents.
 
 By default, the top-level build file uses the buildscript block to define the Gradle repositories and dependencies that are common to all modules in the project. When your dependency is something other than a local library or file tree, Gradle looks for the files in whichever online repositories are specified in the repositories block of this file. By default, new Android Studio projects declare JCenter and Google (which includes the Google Maven repository) as the repository locations:
