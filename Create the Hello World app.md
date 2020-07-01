@@ -23,14 +23,14 @@ These are the settings used by the examples in the lessons for this course. As o
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093111-12d0f400-bacc-11ea-98f8-2e26554c6b18.png)
 
-10.The Configure Activity screen appears (which differs depending on which template you chose in the previous step). By default, the empty Activity provided by the template is named MainActivity. You can change this if you want, but this lesson uses MainActivity.
+10.The **Configure Activity** screen appears (which differs depending on which template you chose in the previous step). By default, the empty Activity provided by the template is named MainActivity. You can change this if you want, but this lesson uses MainActivity.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093103-106e9a00-bacc-11ea-9a55-00126f8ea444.png)
 
-11.Make sure that the Generate Layout file option is checked. The layout name by default is '''activity_main'''. You can change this if you want, but this lesson uses activity_main.
-Make sure that the Backwards Compatibility (App Compat) option is checked. This ensures that your app will be backwards-compatible with previous versions of Android.
-Click Finish.
-Android Studio creates a folder for your projects, and builds the project with Gradle (this may take a few moments).
+11.Make sure that the **Generate Layout** file option is checked. The layout name by default is '''activity_main'''. You can change this if you want, but this lesson uses activity_main.
+12.Make sure that the **Backwards Compatibility (App Compat)** option is checked. This ensures that your app will be backwards-compatible with previous versions of Android.
+13.Click Finish.
+Android Studio creates a folder for your projects, and builds the project with [Gradle](https://gradle.org/) (this may take a few moments).
 
 Tip: See the Configure your build developer page for detailed information.
 
