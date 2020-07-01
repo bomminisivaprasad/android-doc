@@ -7,6 +7,7 @@ In this task, you will create an app that displays "Hello World" to verify that 
 2. In the main **Welcome to Android Studio** window, click Start a new Android Studio project.
 3. In the **Create Android Project** window, enter **Hello World** for the **Application name.**
 ![install ](https://user-images.githubusercontent.com/21328787/86093091-0d73a980-bacc-11ea-94bb-b328d7caa7e7.png)
+
 4. Verify that the default **Project location** is where you want to store your Hello World app and other Android Studio projects, or change it to your preferred directory.
 5. Accept the default **android.example.com** for **Company Domain**, or create a unique company domain.
 If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.
@@ -60,7 +61,7 @@ In this practical, you will explore how the project is organized in Android Stud
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093104-11073080-bacc-11ea-9645-d3be1e17f3c0.png)
 
-Note: This chapter and other chapters refer to the Project pane, when set to Android, as the Project > Android pane.
+'<**Note:** This chapter and other chapters refer to the Project pane, when set to Android, as the Project > Android pane.>'
 
 2.3 Explore the Gradle Scripts folder
 
