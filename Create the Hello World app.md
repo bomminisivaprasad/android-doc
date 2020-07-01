@@ -21,9 +21,9 @@ If you are not planning to publish your app, you can accept the default. Be awar
 
 These are the settings used by the examples in the lessons for this course. As of this writing, these settings make your Hello World app compatible with 97% of Android devices active on the Google Play Store.
 
-8.Leave unchecked the Include Instant App support and all other options. Then click Next. If your project requires additional components for your chosen target SDK, Android Studio will install them automatically.
+8.Leave unchecked the **Include Instant App support** and all other options. Then click **Next**. If your project requires additional components for your chosen target SDK, Android Studio will install them automatically.
 
-9.The Add an Activity window appears. An Activity is a single, focused thing that the user can do. It is a crucial component of any Android app. An Activity typically has a layout associated with it that defines how UI elements appear on a screen. Android Studio provides Activity templates to help you get started. For the Hello World project, choose Empty Activity as shown below, and click Next.
+9.The Add an Activity window appears. An [Activity](https://developer.android.com/reference/android/app/Activity.html) is a single, focused thing that the user can do. It is a crucial component of any Android app. An ```Activity``` typically has a layout associated with it that defines how UI elements appear on a screen. Android Studio provides ```Activity``` templates to help you get started. For the Hello World project, choose **Empty Activity** as shown below, and click **Next**.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093111-12d0f400-bacc-11ea-98f8-2e26554c6b18.png)
 
