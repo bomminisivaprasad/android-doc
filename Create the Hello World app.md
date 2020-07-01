@@ -56,7 +56,7 @@ The Android Studio editor appears. Follow these steps:
 In this practical, you will explore how the project is organized in Android Studio.
 
 1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.
-@.To view the project in the standard Android project hierarchy, choose **Android** from the popup menu at the top of the Project pane, as shown below.
+2.To view the project in the standard Android project hierarchy, choose **Android** from the popup menu at the top of the Project pane, as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093104-11073080-bacc-11ea-9645-d3be1e17f3c0.png)
 
