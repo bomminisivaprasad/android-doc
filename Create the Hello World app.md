@@ -27,40 +27,44 @@ These are the settings used by the examples in the lessons for this course. As o
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093103-106e9a00-bacc-11ea-9a55-00126f8ea444.png)
 
-11.Make sure that the **Generate Layout** file option is checked. The layout name by default is '''activity_main'''. You can change this if you want, but this lesson uses activity_main.
+11.Make sure that the **Generate Layout** file option is checked. The layout name by default is activity_main. You can change this if you want, but this lesson uses activity_main.
+
 12.Make sure that the **Backwards Compatibility (App Compat)** option is checked. This ensures that your app will be backwards-compatible with previous versions of Android.
+
 13.Click Finish.
+
 Android Studio creates a folder for your projects, and builds the project with [Gradle](https://gradle.org/) (this may take a few moments).
 
-Tip: See the Configure your build developer page for detailed information.
+**Tip:** See the [Configure](https://developer.android.com/studio/build/index.html) your build developer page for detailed information.
 
 You may also see a "Tip of the day" message with keyboard shortcuts and other useful tips. Click Close to close the message.
 
 The Android Studio editor appears. Follow these steps:
 
-Click the activity_main.xml tab to see the layout editor.
-Click the layout editor Design tab, if not already selected, to show a graphical rendition of the layout as shown below.
+1.Click the **activity_main.xml** tab to see the layout editor.
+2.Click the layout editor **Design** tab, if not already selected, to show a graphical rendition of the layout as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093113-12d0f400-bacc-11ea-9c80-c05bb0f01adc.png)
 
-Click the MainActivity.java tab to see the code editor as shown below.
+3.Click the **MainActivity.java** tab to see the code editor as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093099-0fd60380-bacc-11ea-95f8-81bac2e9349a.png)
 
 
 
-Explore the Project > Android pane
+### Explore the Project > Android pane
 In this practical, you will explore how the project is organized in Android Studio.
 
-If not already selected, click the Project tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.
-To view the project in the standard Android project hierarchy, choose Android from the popup menu at the top of the Project pane, as shown below.
+1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.
+@.To view the project in the standard Android project hierarchy, choose **Android** from the popup menu at the top of the Project pane, as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093104-11073080-bacc-11ea-9645-d3be1e17f3c0.png)
 
 Note: This chapter and other chapters refer to the Project pane, when set to Android, as the Project > Android pane.
 
 2.3 Explore the Gradle Scripts folder
-The Gradle build system in Android Studio makes it easy to include external binaries or other library modules to your build as dependencies.
+
+1.The Gradle build system in Android Studio makes it easy to include external binaries or other library modules to your build as dependencies.
 
 When you first create an app project, the Project > Android pane appears with the Gradle Scripts folder expanded as shown below.
 
