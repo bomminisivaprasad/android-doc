@@ -9,9 +9,12 @@ In this task, you will create an app that displays "Hello World" to verify that 
 ![install ](https://user-images.githubusercontent.com/21328787/86093091-0d73a980-bacc-11ea-94bb-b328d7caa7e7.png)
 
 4. Verify that the default **Project location** is where you want to store your Hello World app and other Android Studio projects, or change it to your preferred directory.
-5. Accept the default **android.example.com** for **Company Domain**, or create a unique company domain.<br>
-If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.<br>
+5. Accept the default **android.example.com** for **Company Domain**, or create a unique company domain.
+
+If you are not planning to publish your app, you can accept the default. Be aware that changing the package name of your app later is extra work.
+
 6.Leave unchecked the options to **Include C++ support** and **Include Kotlin** support, and **click Next**.
+
 7.On the **Target Android Devices** screen, **Phone and Tablet** should be selected. Ensure that **API 15: Android 4.0.3 IceCreamSandwich** is set as the Minimum SDK; if it is not, use the popup menu to set it.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093103-106e9a00-bacc-11ea-9a55-00126f8ea444.png)  
@@ -43,6 +46,7 @@ You may also see a "Tip of the day" message with keyboard shortcuts and other us
 The Android Studio editor appears. Follow these steps:
 
 1.Click the **activity_main.xml** tab to see the layout editor.
+
 2.Click the layout editor **Design** tab, if not already selected, to show a graphical rendition of the layout as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093113-12d0f400-bacc-11ea-9c80-c05bb0f01adc.png)
@@ -56,7 +60,8 @@ The Android Studio editor appears. Follow these steps:
 #### Explore the Project > Android pane
 In this practical, you will explore how the project is organized in Android Studio.
 
-1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.<br>
+1.If not already selected, click the **Project** tab in the vertical tab column on the left side of the Android Studio window. The Project pane appears.
+
 2.To view the project in the standard Android project hierarchy, choose **Android** from the popup menu at the top of the Project pane, as shown below.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093104-11073080-bacc-11ea-9645-d3be1e17f3c0.png)
@@ -79,7 +84,7 @@ This folder contains all the files needed by the build system.
 2.Look for the **build.gradle(Project: HelloWorld)** file.
 This is where you'll find the configuration options that are common to all of the modules that make up your project. Every Android Studio project contains a single, top-level Gradle build file. Most of the time, you won't need to make any changes to this file, but it's still useful to understand its contents.
 
-By default, the top-level build file uses the buildscript block to define the Gradle repositories and dependencies that are common to all modules in the project. When your dependency is something other than a local library or file tree, Gradle looks for the files in whichever online repositories are specified in the repositories block of this file. By default, new Android Studio projects declare JCenter and Google (which includes the Google Maven repository) as the repository locations:
+By default, the top-level build file uses the buildscript block to define the Gradle repositories and dependencies that are common to all modules in the project. When your dependency is something other than a local library or file tree, Gradle looks for the files in whichever online repositories are specified in the repositories block of this file. By default, new Android Studio projects declare JCenter and Google (which includes the [Google Maven repository](https://maven.google.com/web/index.html)) as the repository locations:
 
         allprojects {
             repositories {
@@ -87,12 +92,13 @@ By default, the top-level build file uses the buildscript block to define the Gr
                 jcenter()
             }
         }
-Look for the build.gradle(Module:app) file.
-In addition to the project-level build.gradle file, each module has a build.gradle file of its own, which allows you to configure build settings for each specific module (the HelloWorld app has only one module). Configuring these build settings allows you to provide custom packaging options, such as additional build types and product flavors. You can also override settings in the AndroidManifest.xml file or the top-level build.gradle file.
+3.Look for the **build.gradle(Module:app)** file.
 
-This file is most often the file to edit when changing app-level configurations, such as declaring dependencies in the dependencies section. You can declare a library dependency using one of several different dependency configurations. Each dependency configuration provides Gradle different instructions about how to use the library. For example, the statement implementation fileTree(dir: 'libs', include: ['*.jar']) adds a dependency of all ".jar" files inside the libs directory.
+In addition to the project-level ```build.gradle``` file, each module has a ```build.gradle``` file of its own, which allows you to configure build settings for each specific module (the HelloWorld app has only one module). Configuring these build settings allows you to provide custom packaging options, such as additional build types and product flavors. You can also override settings in the ```AndroidManifest.xml``` file or the top-level ```build.gradle file.```
 
-The following is the build.gradle(Module:app) file for the HelloWorld app:
+This file is most often the file to edit when changing app-level configurations, such as declaring dependencies in the ```dependencies``` section. You can declare a library dependency using one of several different dependency configurations. Each dependency configuration provides Gradle different instructions about how to use the library. For example, the statement ```implementation fileTree(dir: 'libs', include: ['*.jar'])``` adds a dependency of all ".jar" files inside the libs directory.
+
+The following is the **build.gradle(Module:app)** file for the HelloWorld app:
 
         apply plugin: 'com.android.application'
 
@@ -127,27 +133,29 @@ The following is the build.gradle(Module:app) file for the HelloWorld app:
             androidTestImplementation 
                       'com.android.support.test.espresso:espresso-core:3.0.1'
         }
-Click the triangle to close Gradle Scripts.
-2.4 Explore the app and res folders
-All code and resources for the app are located within the app and res folders.
+4.Click the triangle to close Gradle Scripts.
 
-Expand the app folder, the java folder, and the com.example.android.helloworld folder to see the MainActivity java file. Double-clicking the file opens it in the code editor.
+#### Explore the app and res folders
+All code and resources for the app are located within the ```app``` and ```res``` folders.
+
+1.Expand the **app** folder, the **java** folder, and the **com.example.android.helloworld** folder to see the **MainActivity** java file. Double-clicking the file opens it in the code editor.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093947-714aa200-bacd-11ea-9ed8-73d35ccdda85.png)
 
 
-The java folder includes Java class files in three subfolders, as shown in the figure above. The com.example.hello.helloworld (or the domain name you have specified) folder contains all the files for an app package. The other two folders are used for testing and described in another lesson. For the Hello World app, there is only one package and it contains MainActivity.java. The name of the first Activity (screen) the user sees, which also initializes app-wide resources, is customarily called MainActivity (the file extension is omitted in the Project > Android pane).
+The **java** folder includes Java class files in three subfolders, as shown in the figure above. The **com.example.hello.helloworld** (or the domain name you have specified) folder contains all the files for an app package. The other two folders are used for testing and described in another lesson. For the Hello World app, there is only one package and it contains ```MainActivity.java```. The name of the first ```Activity``` (screen) the user sees, which also initializes app-wide resources, is customarily called **MainActivity** (the file extension is omitted in the **Project > Android** pane).
 
-Expand the res folder and the layout folder, and double-click the activity_main.xml file to open it in the layout editor.
+ 2.Expand the **res** folder and the **layout** folder, and double-click the **activity_main.xml** file to open it in the layout editor.
 
 ![install ](https://user-images.githubusercontent.com/21328787/86093944-6f80de80-bacd-11ea-9734-22ebf4c1cf32.png)
 
 
-The res folder holds resources, such as layouts, strings, and images. An Activity is usually associated with a layout of UI views defined as an XML file. This file is usually named after its Activity.
+The **res** folder holds resources, such as layouts, strings, and images. An ```Activity``` is usually associated with a layout of UI views defined as an XML file. This file is usually named after its ```Activity```.
 
-2.5 Explore the manifests folder
-The manifests folder contains files that provide essential information about your app to the Android system, which the system must have before it can run any of the app's code.
+#### Explore the manifests folder
+The ```manifests``` folder contains files that provide essential information about your app to the Android system, which the system must have before it can run any of the app's code.
 
-Expand the manifests folder.
-Open the AndroidManifest.xml file.
-The AndroidManifest.xml file describes all of the components of your Android app. All components for an app, such as each Activity, must be declared in this XML file. In other course lessons you will modify this file to add features and feature permissions. For an introduction, see App Manifest Overview.
+1.Expand the **manifests** folder.
+2.Open the **AndroidManifest.xml** file.
+
+The ```AndroidManifest.xmL``` file describes all of the components of your Android app. All components for an app, such as each ```Activity```, must be declared in this XML file. In other course lessons you will modify this file to add features and feature permissions. For an introduction, see App [Manifest Overview](https://developer.android.com/guide/topics/manifest/manifest-intro.html).
